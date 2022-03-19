@@ -1,0 +1,54 @@
+<div class="container">
+    <hr>
+    <h1>Create New Student</h1>
+    <hr>
+
+    <form action="/insert" method="POST">
+        <div class="form-group" style= "margin: 10px;">
+            <label for="Name">Name </label>
+            <input class="form-control" name="NAME">
+        </div>
+
+        <div class="form-group" style= "margin: 10px;">
+            <label for="FirstName"> First Name </label>
+            <input class="form-control" name="FIRST_NAME">
+        </div>
+
+        <div class="form-group" style= "margin: 10px;">
+            <label for="MiddleName"> Middle Name </label>
+            <input class="form-control" name="MIDDLE_NAME">
+        </div>
+
+        <div class="form-group" style= "margin: 10px;">
+            <label for="LastName"> Last Name </label>
+            <input class="form-control" name="LAST_NAME">
+        </div>
+
+        <div class="form-group" style= "margin: 10px;">
+            <label for="DOB"> Date of Birth </label>
+            <input class="form-control" name="DATE_OF_BIRTH">
+        </div>
+
+        <div class="form-group" style= "margin: 10px;">
+            <label for="Gender"> Gender </label>
+            <input class="form-control" name="GENDER">
+        </div>
+
+        <!--Other fields-->
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <hr>
+    <h1>Select a Student</h1>
+    <hr>
+
+    <form action="/select" method="GET">
+        <div class="form-group" style= "margin: 10px;">
+            <label for="ID">ID </label>
+            <input class="form-control" name="ID">
+        </div>
+
+        <!--Other fields-->
+        <button type="submit" class="btn btn-primary">Select</button>
+    </form>
+</div>
